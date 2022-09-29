@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+height: 100%;
+
+background-image: url(https://thumbs.dreamstime.com/b/blue-medical-banner-clipboard-stethoscope-copy-space-141012384.jpg);
+
+}
+
+.inner-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,147,173,0.9);
+    overflow:auto;
+}
+.form-data{
+    margin-top: 15%;
+    background-color: #FFF;
+   
+}
+.form-head{
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.form-head h2{
+    font-size: 22px;
+    font-weight: 600px;
+
+}
+.form-body{
+    padding: 20px;
+}
+.no-margin{
+    margin: 0px;
+}
+.form-row{
+    margin-bottom: 18px;
+}
+.form-control{
+    background-color: #f7f7f7;
+    border-radius: 6px;
+}
+.form-control:hover{
+    box-shadow: lightgoldenrodyellow;
+    border:3px solid rgb(34, 193, 105);
+}
+.btn-appointment{
+    position: relative;
+    background-color: #138496;
+    border-color: #138496;
+    align-items: center;
+    width: 100%;
+    
+}
+.content{
+    margin: 15%;
+    text-align: center;
+    color: #FFF;
+}
+.content h1{
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.content p{
+    font-size: 20px;
+}
